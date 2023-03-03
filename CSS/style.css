@@ -53,6 +53,41 @@ body {
     color: var(--main-bg-color)
 }
 
+.main {
+    margin-left: 50px;
+}
+
+/****** Logo and navigation ***********/
+.logo-and-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+/****** Logo ***********/
+.logo img {
+    width: 61.9px;
+    height: 19px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+
+/****** Header ***********/
+.titre h1 {
+    margin-bottom: 8px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.titre h2 {
+    margin-bottom: 35px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
