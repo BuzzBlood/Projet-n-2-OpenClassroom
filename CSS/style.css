@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin-left: 50px;
 }
 
 .main-container {
@@ -53,10 +54,6 @@ body {
     color: var(--main-bg-color)
 }
 
-.main {
-    margin-left: 50px;
-}
-
 /****** Logo and navigation ***********/
 .logo-and-navigation {
     display: flex;
@@ -69,13 +66,12 @@ body {
     height: 19px;
     margin-top: 30px;
     margin-left: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 /****** Header ***********/
 .titre h1 {
     margin-bottom: 8px;
-    height: 26px;
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
@@ -88,6 +84,58 @@ body {
     font-size: 16px;
     line-height: 19px;
 }
+
+/*** Rechercher ******/
+.recherche {
+    display: flex;
+    margin-bottom: 35px;
+    width: 377px;
+    height: 49px;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+}
+
+.icon {
+    
+    border-radius: 14px 0px 0px 14px;
+    background-color: var(--main-bg-color);
+    width: 50px;
+}
+
+.icon img {
+    margin-top: 15px;
+    margin-left: 18px;
+    width: 14px;
+    height: 18px;
+}
+
+.ville input {
+    border: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    width: 189px;
+    height: 47px;
+}
+
+.recherche button {
+    background-color: var(--main-color);
+    color: white;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    width: 135px;
+    height: 49px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
