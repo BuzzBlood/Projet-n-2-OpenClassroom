@@ -308,14 +308,17 @@ a {
     flex-direction: column;
 }
 
+.hebergements-cards .card-txt {
+    display: flex;
+    flex-direction: column;
+}
+
 .hebergements-cards .card-title {
-    height: 19px;
     margin-top: 4px;
     margin-bottom: 8px;
 }
 
 .hebergements-cards .card-subtitle {
-    height: 16px;
     margin-bottom: 8px ;
     margin-top: 0;
 }
