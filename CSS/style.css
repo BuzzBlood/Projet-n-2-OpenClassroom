@@ -158,6 +158,7 @@ a {
 .filtres {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     margin-bottom: 35px;
 }
 
@@ -167,6 +168,11 @@ a {
     font-size: 18px;
     line-height: 21px;
     text-align: center;
+    margin: 0 15px 0 0;
+}
+
+.filtres .button {
+    display: flex;
 }
 
 .filtres a {
@@ -180,7 +186,7 @@ a {
     height: 50px;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
-    margin-left: 15px;
+    margin-right: 15px;
     background-color: white;
 }
 
@@ -457,6 +463,19 @@ footer h3 {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .filtres {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .filtres h2 {
+       margin-bottom: 20px; 
+    }
+
+    .filtres a {
+        font-size: 16px;
+    }
+    
     .hebergements-and-populaires {
         flex-direction: column;
     }
