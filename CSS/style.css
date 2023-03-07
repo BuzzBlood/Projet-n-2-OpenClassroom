@@ -292,12 +292,9 @@ a {
 }
 
 .hebergements-cards .card {
-    width: 250.33px;
     height: 197.25px;
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
-    margin-right: 30px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
@@ -332,6 +329,12 @@ a {
 
 .hebergements-cards .card-rating {
     margin-bottom: 15px;
+}
+
+.hebergements a {
+    width: 260.33px;
+    border-radius: 20px;
+    margin: 30px 30px 0 0;
 }
 
 .plus {
