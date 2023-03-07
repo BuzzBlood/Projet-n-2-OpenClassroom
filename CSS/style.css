@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .page {
@@ -52,6 +53,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 /****** Logo and navigation ***********/
@@ -67,6 +69,22 @@ a {
     margin-top: 30px;
     margin-left: 30px;
     margin-bottom: 30px;
+}
+
+.nav {
+    margin-right: 42.61px;
+    gap: 69px;
+}
+
+.nav-button {
+    padding-top: 16px;
+}
+
+.nav a:hover,
+.nav a:active {
+    padding-top: 14px;
+    border-top: solid 2px #0065FC;
+    color: #0065FC;
 }
 
 /****** Header ***********/
@@ -164,7 +182,6 @@ a {
     border-radius: 25px;
     margin-left: 15px;
     background-color: white;
-    color: #000000;
 }
 
 .filtres a:hover {
@@ -315,7 +332,6 @@ a {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    color: #000000;
     }
 
 /****** Populaires ***********/
@@ -424,7 +440,6 @@ footer div{
 
 footer a {
     margin-top: 15px;
-    color: #000000;
     font-size: 16px;
 }
 
