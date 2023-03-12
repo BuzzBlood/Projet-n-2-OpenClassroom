@@ -81,8 +81,7 @@ a {
     word-spacing: 69px;
 }
 
-.nav a:hover,
-.nav a:active {
+.nav a:hover {
     padding-top: 14px;
     border-top: solid 2px #0065FC;
     color: #0065FC;
@@ -397,11 +396,17 @@ a {
 }
 
 .populaires-cards .card-subtitle {
-    margin: 0;
+    margin: 0;  
 }
 
 .populaires-cards .card-rating {
     margin-bottom: 5px;
+}
+
+.populaire-star {
+    font-size: 12px;
+    width: 7.91663px;
+    margin-right: 2px;
 }
 
 /****** Activités ***********/
