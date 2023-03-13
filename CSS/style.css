@@ -679,4 +679,26 @@ footer h3 {
     .activites img {
         height: 141px;
     }
+
+    /****** Footer ***********/
+    footer {
+        flex-direction: column;
+    }
+    
+    footer div {
+        padding: 30px 0 30px 30px;
+        max-height: 123px;
+    }
+
+    footer .nos-hebergements {
+        height: 89px;
+    }
+
+    footer .assistance {
+        height: 89px;
+    }
+
+    footer h3 {
+        margin: 0;
+    }
 }
