@@ -56,7 +56,7 @@ a {
     color: #000000;
 }
 
-/****** Logo and navigation ***********/
+/****** Header ***********/
 .logo-and-navigation {
     display: flex;
     justify-content: space-between;
@@ -95,7 +95,9 @@ a {
     color: #0065FC;
 }
 
-/****** Header ***********/
+/****** Info group ***********/
+
+/****** Titres ***********/
 .titre h1 {
     margin-bottom: 8px;
     font-weight: 700;
@@ -121,11 +123,11 @@ a {
     border-radius: 15px;
 }
 
-.icon {
+.recherche .icon {
 
     border-radius: 14px 0px 0px 14px;
     background-color: var(--main-bg-color);
-    width: 50px;
+    min-width: 50px;
 }
 
 .icon img {
@@ -160,6 +162,10 @@ a {
     font-size: 18px;
     line-height: 21px;
     text-align: center;
+}
+
+.button-icon {
+    display: none;
 }
 
 /****** Filtres ***********/
@@ -439,7 +445,6 @@ a {
 .activites-title {
     margin-bottom: 30px;
     font-weight: 700;
-    width: 1280px;
     height: 30.02px;
 }
 
@@ -609,7 +614,44 @@ footer h3 {
         border-bottom: solid 2px #0065FC;
     }
     
-    /****** Filrtres ***********/
+    /****** Info Group ***********/
+    .info-group {
+        padding: 0 20px;
+    }
+
+    /****** Recherche ***********/
+    .recherche{
+        justify-content: space-between;
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .recherche input {
+        width: 100%;
+    }
+
+    .recherche button {
+        margin-left: 4px;
+        padding: 0;
+        border-radius: 15px;
+        width: 49px;
+    }
+
+    .button-icon {
+        display: block;
+    }
+
+    .button-icon img {
+        padding: 16px;
+        width: 17px;
+        height: 17px;
+    }
+
+    .button-txt {
+        display: none;
+    }
+
+    /****** Filtres ***********/
 
     /****** Hebergements et Populaires ***********/
 
@@ -626,6 +668,7 @@ footer h3 {
     .populaires {
         padding: 30px 20px;
         width: 100%;
+        margin-top: 35px;
     }
 
     .populaires a {
