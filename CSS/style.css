@@ -486,12 +486,13 @@ a {
 /****** Footer ***********/
 footer {
     display: flex;
+    background-color: #F2F2F2;
 }
 
 footer div {
     display: flex;
     flex-direction: column;
-    width: 446.67px;
+    width: 90%;
     height: 163px;
     background-color: #F2F2F2;
     padding-left: 20px;
