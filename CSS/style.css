@@ -137,11 +137,9 @@ a {
     min-width: 50px;
 }
 
-.icon img {
-    margin-top: 15px;
-    margin-left: 18px;
-    width: 14px;
-    height: 18px;
+.recherche i {
+    margin: 24px 0 0 18px;
+    color: #000000;
 }
 
 .ville input {
@@ -223,28 +221,6 @@ a {
     margin: 0 0;
 }
 
-.economique img {
-    height: 16.26px;
-    width: 22px;
-}
-
-.familial img {
-    margin: 0 4px;
-    height: 22px;
-    width: 13.44px;
-}
-
-.romantique img {
-    height: 18.33px;
-    width: 22px;
-}
-
-.pepites img {
-    margin: 0 1.5px;
-    height: 20.08px;
-    width: 18px;
-}
-
 /****** Information ***********/
 .information {
     display: flex;
@@ -260,11 +236,8 @@ a {
     border-radius: 12px 12px 12px 12px;
 }
 
-.information img {
-    width: 4px;
-    height: 10px;
-    margin-left: 10px;
-    margin-top: 7px;
+.information i {
+    margin: 11px 10px;
 }
 
 .information h3 {
