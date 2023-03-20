@@ -137,7 +137,7 @@ a {
     min-width: 50px;
 }
 
-.recherche i {
+.recherche .icon i {
     margin: 24px 0 0 18px;
     color: #000000;
 }
@@ -171,6 +171,11 @@ a {
 
 .button-icon {
     display: none;
+}
+
+.recherche .button i {
+    margin: 15px;
+    color: #FFFFFF;
 }
 
 /****** Filtres ***********/
